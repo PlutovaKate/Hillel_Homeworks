@@ -31,6 +31,7 @@ nav {
 a {
   text-decoration: none;
   color: rgba(61, 61, 61, 1);
+  display: inline-block;
 }
 
 ul {
