@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 1440px;
+  padding: 171px 105px 82px 106px;
+  clear: both;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container_left {
+  float: left;
+}
+
+.container_right {
+  float: left;
+}
+
+aside {
+  max-width: 310px;
+  height: 774px;
+  background-color: rgba(251, 251, 251, 1);
+  padding: 14px 18px;
+  margin-left: 29px;
+}
+
+h2 {
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 16px;
+  color: rgba(61, 61, 61, 1);
+
+  margin: 0;
+  padding: 0;
+}
+
+.list_link {
+  margin: 0;
+  padding: 7px 12px;
+}
+
+.item_link {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgba(61, 61, 61, 1);
+}
+
+.item_link:hover {
+  font-weight: bold;
+  color: rgba(70, 163, 88, 1);
+}
+.item_link:focus {
+  font-weight: bold;
+  color: rgba(70, 163, 88, 1);
+  outline: none;
+}
+
+.sale_banner {
+  width: 370px;
+  height: 470px;
+}
+
+header {
+  max-width: 838px;
+  margin-bottom: 31px;
+}
+
+.clear_float::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header li {
+  float: left;
+}
+
+header nav {
+  float: left;
+}
+
+header p {
+  float: left;
+}
+
+.nav_list {
+  padding: 0;
+  margin: 0;
+}
+
+.nav_link {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-right: 40px;
+  color: rgba(61, 61, 61, 1);
+  padding-bottom: 7px;
+
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  font-weight: bold;
+  color: rgba(70, 163, 88, 1);
+
+  border-bottom: 2px solid rgba(70, 163, 88, 1);
+}
+
+.option_sort {
+  float: right;
+}
+
+.text_sort {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(61, 61, 61, 1);
+  margin: 0 8px 0 0;
+}
+
+select {
+  border: none;
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(61, 61, 61, 1);
+}
+
+option {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(61, 61, 61, 1);
+}
+
+section {
+  width: 840px;
+  height: 1190px;
+}
+
+.item_list {
+  padding: 0;
+  margin: 0;
+}
+
+.item_card {
+  width: 258px;
+  height: 350px;
+  margin: 0 29px 70px 0;
+  float: left;
+}
+
+.item_card:nth-child(3n + 1) {
+  margin-left: 0;
+}
+.item_card:nth-child(3n + 3) {
+  margin-right: 0;
+}
+
+.item_card:nth-child(n + 7) {
+  margin-bottom: 0;
+}
+
+.img_card {
+  width: 258px;
+  height: 300px;
+  text-align: center;
+  background: rgba(251, 251, 251, 1);
+}
+
+.product_link {
+  background: rgba(251, 251, 251, 1);
+}
+
+.item_name {
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(61, 61, 61, 1);
+  margin: 12px 0 0 0;
+}
+
+.item_prise {
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 16px;
+  color: rgba(70, 163, 88, 1);
+  margin: 6px 0 0 0;
+}
+
+.pages {
+  float: right;
+  margin: 90px 0 0 0;
+  padding: 0;
+}
+
+.pages_number {
+  float: left;
+  width: 35px;
+  height: 35px;
+  padding: 10px 12px;
+
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 16px;
+  color: rgba(61, 61, 61, 1);
+
+  border: 1px solid rgba(229, 229, 229, 1);
+  border-radius: 4px;
+
+  margin-right: 10px;
+}
+
+.pages_number:hover {
+  background: rgba(70, 163, 88, 1);
+  cursor: pointer;
+}
+
+.pages_number:focus {
+  background: rgba(70, 163, 88, 1);
+}
+
+.pages_link:hover {
+  color: rgba(255, 255, 255, 1);
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.pages_link:focus {
+  color: rgba(255, 255, 255, 1);
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+}

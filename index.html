@@ -4,48 +4,184 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plants</title>
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <aside>
-      <h2>Categories</h2>
-      <ul>
-        <li><a href="/">House Plants</a></li>
-        <li><a href="/">Potter Plants</a></li>
-        <li><a href="/">Seeds</a></li>
-        <li><a href="/">Small Plants</a></li>
-        <li><a href="/">Big Plants</a></li>
-        <li><a href="/">Succulents</a></li>
-        <li><a href="/">Trerrariums</a></li>
-        <li><a href="/">Gardening</a></li>
-        <li><a href="/">Accessories</a></li>
-      </ul>
-    </aside>
-    <a href=""><img src="./images/SuperSaleBanner.png" alt="sale bunner" /></a>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="/">All Plants</a></li>
-          <li><a href="/">New Arrivals</a></li>
-          <li><a href="/">Sale</a></li>
+  <body class="clear_float">
+    <div class="container_left">
+      <aside>
+        <h2>Categories</h2>
+        <ul class="list_link">
+          <li><a class="item_link" href="/">House Plants</a></li>
+          <li><a class="item_link" href="/">Potter Plants</a></li>
+          <li><a class="item_link" href="/">Seeds</a></li>
+          <li><a class="item_link" href="/">Small Plants</a></li>
+          <li><a class="item_link" href="/">Big Plants</a></li>
+          <li><a class="item_link" href="/">Succulents</a></li>
+          <li><a class="item_link" href="/">Trerrariums</a></li>
+          <li><a class="item_link" href="/">Gardening</a></li>
+          <li><a class="item_link" href="/">Accessories</a></li>
         </ul>
-      </nav>
-      <p>Short by:</p>
-      <select>
-        <option>Default sorting</option>
-        <option>Price law</option>
-        <option>Price high</option>
-      </select>
-    </header>
-    <section>
-      <a href="/"> <img src="./images/product_1.png" alt="product_link" /></a>
-      <a href="/"> <img src="./images/product_2.png" alt="product_link" /></a>
-      <a href="/"> <img src="./images/product_3.png" alt="product_link" /></a>
-      <a href="/"> <img src="./images/product_4.png" alt="product_link" /></a>
-      <a href="/"> <img src="./images/product_5.png" alt="product_link" /></a>
-      <a href="/"> <img src="./images/product_6.png" alt="product_link" /></a>
-      <a href="/"> <img src="./images/product_7.png" alt="product_link" /></a>
-      <a href="/"> <img src="./images/product_8.png" alt="product_link" /></a>
-      <a href="/"> <img src="./images/product_9.png" alt="product_link" /></a>
-    </section>
+      </aside>
+      <a class="link_saleBunner" href=""
+        ><img
+          class="sale_banner"
+          src="./images/SuperSaleBanner.png"
+          alt="Sale Bunner"
+      /></a>
+    </div>
+    <div class="container_right">
+      <header class="clear_float">
+        <nav>
+          <ul class="nav_list clear_float">
+            <li><a class="nav_link" href="/">All Plants</a></li>
+            <li><a class="nav_link" href="/">New Arrivals</a></li>
+            <li><a class="nav_link" href="/">Sale</a></li>
+          </ul>
+        </nav>
+        <div class="option_sort clear_float">
+          <p class="text_sort">Short by:</p>
+          <select>
+            <option>Default sorting</option>
+            <option>Price law</option>
+            <option>Price high</option>
+          </select>
+        </div>
+      </header>
+
+      <section>
+        <ul class="item_list clear_float">
+          <li class="item_card">
+            <a href="/">
+              <div class="img_card">
+                <img
+                  class="product_link"
+                  src="./images/product_1.png"
+                  alt="Barberton Daisy"
+                />
+              </div>
+              <p class="item_name">Barberton Daisy</p>
+              <p class="item_prise">$119.00</p>
+            </a>
+          </li>
+          <li class="item_card">
+            <a href="/">
+              <div class="img_card">
+                <img
+                  class="product_link"
+                  src="./images/product_2.png"
+                  alt="Angel Wing Begonia"
+                />
+              </div>
+              <p class="item_name">Angel Wing Begonia</p>
+              <p class="item_prise">$169.00</p>
+            </a>
+          </li>
+          <li class="item_card">
+            <a href="/">
+              <div class="img_card">
+                <img
+                  class="product_link"
+                  src="./images/product_3.png"
+                  alt="African Violet"
+                />
+              </div>
+              <p class="item_name">African Violet</p>
+              <p class="item_prise">$199.00</p>
+            </a>
+          </li>
+          <li class="item_card">
+            <a href="/">
+              <div class="img_card">
+                <img
+                  class="product_link"
+                  src="./images/product_4.png"
+                  alt="Beach Spider Lily"
+                />
+              </div>
+              <p class="item_name">Beach Spider Lily</p>
+              <p class="item_prise">$129.00</p>
+            </a>
+          </li>
+          <li class="item_card">
+            <a href="/">
+              <div class="img_card">
+                <img
+                  class="product_link"
+                  src="./images/product_5.png"
+                  alt="Blushing Bromeliad"
+                />
+              </div>
+              <p class="item_name">Blushing Bromeliad</p>
+              <p class="item_prise">$139.00</p>
+            </a>
+          </li>
+          <li class="item_card">
+            <a href="/">
+              <div class="img_card">
+                <img
+                  class="product_link"
+                  src="./images/product_6.png"
+                  alt="Aluminum Plant"
+                />
+              </div>
+              <p class="item_name">Aluminum Plant</p>
+              <p class="item_prise">$179.00</p>
+            </a>
+          </li>
+          <li class="item_card">
+            <a href="/">
+              <div class="img_card">
+                <img
+                  class="product_link"
+                  src="./images/product_7.png"
+                  alt="Bird's Nest Fern"
+                />
+              </div>
+              <p class="item_name">Bird's Nest Fern</p>
+              <p class="item_prise">$99.00</p>
+            </a>
+          </li>
+          <li class="item_card">
+            <a href="/">
+              <div class="img_card">
+                <img
+                  class="product_link"
+                  src="./images/product_8.png"
+                  alt="Broadleaf Lady Palm"
+                />
+              </div>
+              <p class="item_name">Broadleaf Lady Palm</p>
+              <p class="item_prise">$59.00</p>
+            </a>
+          </li>
+          <li class="item_card">
+            <a href="/">
+              <div class="img_card">
+                <img
+                  class="product_link"
+                  src="./images/product_9.png"
+                  alt="Chinese Evergreen"
+                />
+              </div>
+              <p class="item_name">Chinese Evergreen</p>
+              <p class="item_prise">$39.00</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <ul class="pages">
+      <li class="pages_number">
+        <a class="pages_link" class="" href="/">1</a>
+      </li>
+      <li class="pages_number"><a class="pages_link" href="/">2</a></li>
+      <li class="pages_number"><a class="pages_link" href="/">3</a></li>
+      <li class="pages_number"><a class="pages_link" href="/">4</a></li>
+      <li class="pages_number"><a class="pages_link" href="/">&#62;</a></li>
+    </ul>
   </body>
 </html>
