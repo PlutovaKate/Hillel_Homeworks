@@ -25,6 +25,12 @@ a {
   float: left;
 }
 
+.clear_float::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 aside {
   max-width: 310px;
   height: 774px;
@@ -245,10 +251,4 @@ section {
   font-size: 18px;
   font-weight: 700;
   line-height: 16px;
-}
-
-.clear_float::after {
-  content: "";
-  display: block;
-  clear: both;
 }
