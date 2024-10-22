@@ -77,12 +77,6 @@ header {
   margin-bottom: 31px;
 }
 
-.clear_float::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 header li {
   float: left;
 }
@@ -218,12 +212,6 @@ section {
   height: 35px;
   padding: 10px 12px;
 
-  font-family: Cera Pro;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 16px;
-  color: rgba(61, 61, 61, 1);
-
   border: 1px solid rgba(229, 229, 229, 1);
   border-radius: 4px;
 
@@ -237,6 +225,10 @@ section {
 
 .pages_number:focus {
   background: rgba(70, 163, 88, 1);
+}
+
+.pages_link {
+  color: rgba(61, 61, 61, 1);
 }
 
 .pages_link:hover {
@@ -253,4 +245,10 @@ section {
   font-size: 18px;
   font-weight: 700;
   line-height: 16px;
+}
+
+.clear_float::after {
+  content: "";
+  display: block;
+  clear: both;
 }
