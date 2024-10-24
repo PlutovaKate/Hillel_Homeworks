@@ -92,7 +92,6 @@ a:hover {
   max-width: 586px;
 
   display: flex;
-  background: rgba(251, 251, 251, 1);
 }
 
 .main_img {
@@ -106,6 +105,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: end;
+  background: rgba(251, 251, 251, 1);
 }
 
 .blog_header {
@@ -122,6 +122,17 @@ a:hover {
 
 .blog_container {
   padding: 9px 12px 12px 15px;
+}
+
+.post_time {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 4px;
+
+  color: rgba(70, 163, 88, 1);
 }
 
 .blog_text {
