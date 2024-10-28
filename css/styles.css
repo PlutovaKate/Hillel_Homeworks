@@ -3,7 +3,10 @@
 }
 
 body {
-  min-width: 1200px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
   font-family: "Ubuntu Mono", monospace;
   font-weight: 400;
   font-style: normal;
@@ -92,7 +95,7 @@ section {
   );
 
   /* display: flex;
-  justify-content: space-between; */
+    justify-content: space-between; */
 }
 
 main {
