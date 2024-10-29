@@ -7,7 +7,7 @@ body {
   box-sizing: border-box;
 }
 
-h2 {
+.main_header {
   font-family: Cera Pro;
   font-size: 18px;
   font-weight: 900;
@@ -41,7 +41,7 @@ button {
   display: flex;
 }
 
-h1 {
+h2 {
   text-align: center;
 
   font-family: Cera Pro;
