@@ -110,6 +110,17 @@ header p {
   padding-bottom: 7px;
 
   text-decoration: none;
+
+  display: block;
+  width: 90px;
+  min-height: 25px;
+}
+
+.current {
+  font-weight: bold;
+  color: rgba(70, 163, 88, 1);
+
+  border-bottom: 2px solid rgba(70, 163, 88, 1);
 }
 
 .nav_link:hover {
@@ -151,7 +162,6 @@ option {
 
 section {
   width: 840px;
-  height: 1190px;
 }
 
 .item_list {
@@ -216,7 +226,7 @@ section {
   float: left;
   width: 35px;
   height: 35px;
-  padding: 10px 12px;
+  text-align: center;
 
   border: 1px solid rgba(229, 229, 229, 1);
   border-radius: 4px;
@@ -226,6 +236,7 @@ section {
 
 .pages_number:hover {
   background: rgba(70, 163, 88, 1);
+
   cursor: pointer;
 }
 
@@ -234,7 +245,9 @@ section {
 }
 
 .pages_link {
+  display: block;
   color: rgba(61, 61, 61, 1);
+  padding: 9px 12px;
 }
 
 .pages_link:hover {
