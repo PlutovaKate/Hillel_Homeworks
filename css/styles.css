@@ -186,13 +186,28 @@ section {
   display: none;
 }
 
+.hover-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 1);
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.hover-img {
+  width: 20px;
+  height: 20px;
+}
+
 .item_card:hover .hover_menu {
   display: flex;
   gap: 26px;
   padding: 0;
   position: absolute;
-  bottom: 7px;
-  left: 68px;
+  bottom: 34px;
+  left: 50px;
 }
 
 .item_card:nth-child(3n + 1) {
